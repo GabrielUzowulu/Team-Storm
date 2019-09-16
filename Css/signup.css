@@ -20,7 +20,6 @@ label {
     font-family: poppins;
     color: #000000;
     font-size: 16px;
-    line-height: 16px;
     font-weight: 550;
 }
 
@@ -74,4 +73,32 @@ label {
     color: #000000;
     font-size: 14px;
     padding-top: 0px;
+}
+
+.login-google {
+    font-size: 13px;
+    color: black;
+}
+
+
+/*
+Media query for phones
+*/
+
+@media only screen and (max-width: 768px) {
+    .illustration-img {
+        display: none;
+    }
+}
+
+
+/*
+Media query for tablets
+*/
+
+@media (max-width: 990px) {
+    .illustration {
+        width: 320px;
+        height: 280px;
+    }
 }
