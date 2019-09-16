@@ -1,1 +1,77 @@
+body {
+    background-color: #F9F9F9;
+}
 
+header.brand,
+header.brand-second {
+    font-size: 34px;
+}
+
+.brand-second {
+    font-weight: 100;
+    font-weight: 14px;
+}
+
+input {
+    border: 1px solid #000000;
+}
+
+label {
+    font-family: poppins;
+    color: #000000;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 550;
+}
+
+.illustration {
+    width: 450px;
+    height: 300px;
+}
+
+.login-btn {
+    background-color: #5CDA7A;
+    font-size: 12px;
+    color: white;
+    border-radius: 0px;
+    box-shadow: 9px 9px 39px rgba(92, 218, 122, 0.24);
+}
+
+.login-btn:hover {
+    color: white;
+    box-shadow: 9px 9px 39px rgba(92, 218, 122, 0.24);
+}
+
+.sign-up {
+    font-weight: 100;
+    font-size: 12px;
+    color: #000000;
+}
+
+.signup-btn {
+    color: #0070AE;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.form {
+    box-shadow: 9px 9px 39px rgba(191, 191, 191, 0.24);
+}
+
+.form-brand {
+    text-align: center;
+    font-size: 14px;
+    color: #000000;
+}
+
+.form-brand>p {
+    font-weight: 100;
+    color: #000000;
+    font-size: 12px;
+}
+
+.forgot-pass {
+    color: #000000;
+    font-size: 14px;
+    padding-top: 0px;
+}
